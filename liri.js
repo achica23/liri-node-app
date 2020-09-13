@@ -51,10 +51,10 @@ function spotifySong(userInput) {
 
         .then(function (results) {
             console.log(results.tracks.items[0])
-            console.log('Artist;' + results.tracks.items[0].album.artists)
-            console.log('Song Name;' + results.tracks.items[0].album.name)
-            console.log('Spotify Link'; + results.tracks.items[0].album.href)
-})
+            console.log('Artist' + results.tracks.items[0].album.artists)
+            console.log('Song Name' + results.tracks.items[0].album.name)
+            console.log('Spotify Link' + results.tracks.items[0].album.href)
+        })
 
 }
 function movieThis() {
